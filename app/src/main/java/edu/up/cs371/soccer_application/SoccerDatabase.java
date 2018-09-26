@@ -298,7 +298,7 @@ public class SoccerDatabase implements SoccerDB {
             PrintWriter pw = new PrintWriter(file);
             for (Object s : players.keySet()) {
                 SoccerPlayer player = (SoccerPlayer) players.get(s);
-                //todo figure out why logstring isn't working
+                
                 logString("testing...");
                 pw.println(logString(player.getFirstName()));
                 pw.println(logString(player.getLastName()));
